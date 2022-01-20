@@ -11,18 +11,17 @@ Esse é um pequeno artigo sobre orientação a objeto na plataforma .NET 5, os e
 
 1. [Objeto](#Objeto)
 2. [Método](#Método)
-3. [Third Example](#third-example)
-4. [Modificadores de acesso](#Modificadores-de-acesso)
-5. [Encapsulamento ](#Encapsulamento)
-6. [Construtor](#Construtor)
-7. [Propriedade Get e Set](#Propriedade-Get-e-Set)
-8. [Palavra chave This](#Palavra-chave-This)
-9. [Herança](#Herança)
-10. [Polimorfismo](#Polimorfismo)
-11. [Método e objeto estático](#Método-e-objeto-estático)
-12. [Classe abstrata](#Classe-abstrata)
-13. [Interface](#Interface)
-14. [Referência ](#Referência)
+3. [Modificadores de acesso](#Modificadores-de-acesso)
+4. [Encapsulamento ](#Encapsulamento)
+5. [Construtor](#Construtor)
+6. [Propriedade Get e Set](#Propriedade-Get-e-Set)
+7. [Palavra chave This](#Palavra-chave-This)
+8. [Herança](#Herança)
+9. [Polimorfismo](#Polimorfismo)
+10. [Método e objeto estático](#Método-e-objeto-estático)
+11. [Classe abstrata](#Classe-abstrata)
+12. [Interface](#Interface)
+13. [Referência ](#Referência)
 
 ## Objeto
 
@@ -75,7 +74,10 @@ public double media()
 
 Os modificadores de acesso são palavras-chave usadas para especificar a acessibilidade declarada de um membro ou de um tipo.
 
-> **Public** -> Atributos e métodos visíveis em qualquer classe <br> > **Private** -> Atributos e métodos visíveis apenas na classe onde são criados <br> > **Protected** -> Atributos e métodos visíveis em classes onde são criados ou herdados <br> > **Internal** -> O acesso é limitado ao código que faz parte da mesma compilação. <br>
+> **Public** -> Atributos e métodos visíveis em qualquer classe <br>
+> **Private** -> Atributos e métodos visíveis apenas na classe onde são criados <br>
+> **Protected** -> Atributos e métodos visíveis em classes onde são criados ou herdados <br>
+> **Internal** -> O acesso é limitado ao código que faz parte da mesma compilação. <br>
 
 ```c#
 public string nome; //tipo de acesso público
