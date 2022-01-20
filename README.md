@@ -75,10 +75,7 @@ public double media()
 
 Os modificadores de acesso são palavras-chave usadas para especificar a acessibilidade declarada de um membro ou de um tipo.
 
-> **Public** -> Atributos e métodos visíveis em qualquer classe
-> **Private** -> Atributos e métodos visíveis apenas na classe onde são criados
-> **Protected** -> Atributos e métodos visíveis em classes onde são criados ou herdados
-> **Internal** -> O acesso é limitado ao código que faz parte da mesma compilação.
+> **Public** -> Atributos e métodos visíveis em qualquer classe <br> > **Private** -> Atributos e métodos visíveis apenas na classe onde são criados <br> > **Protected** -> Atributos e métodos visíveis em classes onde são criados ou herdados <br> > **Internal** -> O acesso é limitado ao código que faz parte da mesma compilação. <br>
 
 ```c#
 public string nome; //tipo de acesso público
